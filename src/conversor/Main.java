@@ -46,7 +46,7 @@ public class Main {
 
 				// Seleccion de la divisa desde el ENUM y Proceso matematico.
 				if (opcionObtenida2.equals(OpcionesDivisas.UNO.getDivisa())) {
-					double divisaCOP = 4196.22;
+					double divisaCOP = 4015.50;
 					resultado = Math.round(resultado / divisaCOP * 100) / 100.0;
 					System.out.println(resultado);
 					divisa = "Dolares";
@@ -75,9 +75,9 @@ public class Main {
 					System.out.println(resultado);
 					divisa = "Wones sul-coreano";
 					simboloDivisa = "₩";
-					// CONVERSIONES INVERTIDAS POR TERMINAR
+					// CONVERSIONES INVERTIDAS
 				} else if (opcionObtenida2.equals(OpcionesDivisas.SEIS.getDivisa())) {
-					double divisaCOP = 40590.00;
+					double divisaCOP = 4015.50;
 					resultado = Math.round(resultado * divisaCOP * 100) / 100.0;
 				} else if (opcionObtenida2.equals(OpcionesDivisas.SIETE.getDivisa())) {
 					double divisaCOP = 4603.25;
